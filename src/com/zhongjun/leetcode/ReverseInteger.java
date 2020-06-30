@@ -29,7 +29,7 @@ public class ReverseInteger {
         System.out.println(reverse(123));
     }
 
-    private static int reverse(int x) {
+    public static int reverse(int x) {
         int value = 0;
         while (x != 0) {
             int tmp = x % 10;
